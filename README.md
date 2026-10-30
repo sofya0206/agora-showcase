@@ -1,6 +1,6 @@
 # Agora — AI sourcing for B2B packaging
 
-**Live demo:** [agora-demo-cyan.vercel.app](https://agora-demo-cyan.vercel.app) · **Organisation:** [Agora-hg](https://github.com/Agora-hg) · **Status:** startup in the *Ya v Dele* and *Innovators of Moscow* accelerators · **Source:** mostly private. This repository is the public overview.
+**Live demo:** [agora-demo-cyan.vercel.app](https://agora-demo-cyan.vercel.app) · **Organisation:** [Agora-hg](https://github.com/Agora-hg) · **Status:** startup in the *Ya v Dele* and *Innovators of Moscow* accelerators · **Storefront code:** [sofya0206/agora-demo](https://github.com/sofya0206/agora-demo) (public, with a code walkthrough). The backend is private.
 
 A business that needs 5 000 corrugated boxes usually spends days calling suppliers. Agora lets the buyer describe the task in plain words and returns a shortlist of real suppliers from the catalogue, with an honest match score and a list of what does not fit.
 
@@ -30,7 +30,7 @@ flowchart LR
 
 | Service | What it does | Stack |
 | --- | --- | --- |
-| Storefront | Catalogue, supplier finder, request checkout, landing | Next.js 16, React 19, TypeScript |
+| [Storefront](https://github.com/sofya0206/agora-demo) | Catalogue, supplier finder, request checkout, landing | Next.js 16, React 19, TypeScript |
 | API | Catalogue, suppliers, offers, AI sessions with streaming (SSE) | PHP 8.3, Laravel, PostgreSQL |
 | Admin panel | Suppliers, offers, AI test bench, LLM cost per chat | React 19, Vite |
 | Telegram bot | New requests to the admin, then to the supplier; replies relayed | Python, FastAPI |
