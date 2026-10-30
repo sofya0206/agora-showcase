@@ -1,10 +1,22 @@
 # Agora — AI sourcing for B2B packaging
 
-**Live demo:** [agora-demo-cyan.vercel.app](https://agora-demo-cyan.vercel.app) · **Organisation:** [Agora-hg](https://github.com/Agora-hg) · **Status:** startup in the *Ya v Dele* and *Innovators of Moscow* accelerators · **Storefront code:** [sofya0206/agora-demo](https://github.com/sofya0206/agora-demo) (public, with a code walkthrough). The backend is private.
+**Live demo:** [agora-demo-cyan.vercel.app](https://agora-demo-cyan.vercel.app) · **Organisation:** [Agora-hg](https://github.com/Agora-hg) · **Status:** early-stage startup in the *Ya v Dele* and *Innovators of Moscow* accelerators · **My role:** co-founder, frontend developer · **Storefront code:** [sofya0206/agora-demo](https://github.com/sofya0206/agora-demo) (public, with a code walkthrough). The backend is private.
 
 A business that needs 5 000 corrugated boxes usually spends days calling suppliers. Agora lets the buyer describe the task in plain words and returns a shortlist of real suppliers from the catalogue, with an honest match score and a list of what does not fit.
 
 ![Agora storefront](assets/storefront.png)
+
+## What Agora is and why it exists
+
+Small and mid-size businesses in Russia (online shops, warehouses, wholesalers) buy packaging all the time: boxes, film, tape, pallets, labels. The market is fragmented. Hundreds of small factories have no proper websites or price lists, so a buyer spends days on calls and still cannot compare offers.
+
+Agora is a marketplace that fixes this:
+
+1. **One catalogue** of verified suppliers and their real offers: sizes, grades, minimum order, lead time and price.
+2. **One request instead of ten calls.** The buyer describes the task, gets a ranked shortlist and sends one request. An operator and a Telegram bot pass it to the supplier.
+3. **The AI assistant** turns a free-text request into exact parameters and explains why each supplier fits or does not.
+
+**Where we are:** a working product with a pilot in Moscow. We started with 14 packaging categories and corrugated boxes first. We are testing demand with a separate SEO catalogue and collecting supplier leads with our own classifier. The team was selected for two Moscow startup programmes, *Ya v Dele* and *Innovators of Moscow*.
 
 ## The AI part: grounded matching, no made-up suppliers
 
