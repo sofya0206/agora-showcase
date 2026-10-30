@@ -30,7 +30,7 @@ flowchart LR
 
 | Service | What it does | Stack |
 | --- | --- | --- |
-| Storefront | Catalogue, AI chat for picking a supplier, requests | Next.js, TypeScript |
+| Storefront | Catalogue, supplier finder, request checkout, landing | Next.js 16, React 19, TypeScript |
 | API | Catalogue, suppliers, offers, AI sessions with streaming (SSE) | PHP 8.3, Laravel, PostgreSQL |
 | Admin panel | Suppliers, offers, AI test bench, LLM cost per chat | React 19, Vite |
 | Telegram bot | New requests to the admin, then to the supplier; replies relayed | Python, FastAPI |
@@ -39,7 +39,7 @@ flowchart LR
 
 ## Team and my role
 
-I am a **co-founder and the frontend developer**. I built the storefront: the catalogue and the buyer-facing interface of the AI chat.
+I am a **co-founder and the frontend developer**. I wrote the storefront (20 of 21 commits): the catalogue with filters in the URL, a supplier finder that ranks suppliers by how many of the buyer's categories they cover, the request cart and checkout, and the landing page with light and dark themes. The AI matching described above runs in the API. On the storefront it is presented on the landing page, and connecting it to the chat interface is the next step.
 
 - Backend, admin panel, bot and lead collector: [Rauan228](https://github.com/Rauan228)
 Agora was selected for two Moscow startup programmes: **Ya v Dele** and **Innovators of Moscow**, where I am a resident of the Innovators Academy.
